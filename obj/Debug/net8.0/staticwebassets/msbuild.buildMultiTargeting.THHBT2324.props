@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\THHBT2324.props" />
+</Project>

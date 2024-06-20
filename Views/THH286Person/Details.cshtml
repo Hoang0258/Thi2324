@@ -1,0 +1,30 @@
+@model THHBT2324.Models.THH286Person
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>THH286Person</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.THH286Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.THH286Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.THH286DiaChi)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.THH286DiaChi)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.THH286ID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
